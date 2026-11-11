@@ -1,0 +1,8 @@
+{
+  "spikeChannelId": "<private test channel uuid>",
+  "assignmentProbe": {
+    "issue": "<64-hex issue event id>",
+    "laneOwner": "<64-hex lane owner pubkey>",
+    "laneId": "spike-r2-lane"
+  }
+}

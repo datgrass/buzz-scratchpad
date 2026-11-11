@@ -1,0 +1,5 @@
+node_modules/
+.vitest/
+dist/
+src/spike.config.json
+plugin.js

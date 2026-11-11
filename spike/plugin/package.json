@@ -1,0 +1,15 @@
+{
+  "name": "scratchpad-plugin-spike",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "esbuild src/plugin.ts --bundle --format=esm --target=es2022 --jsx-factory=React.createElement --jsx-fragment=React.Fragment --outfile=plugin.js --external:react --log-level=warning",
+    "test": "vitest run src/board-spike.test.ts"
+  },
+  "devDependencies": {
+    "@types/react": "latest",
+    "esbuild": "latest",
+    "typescript": "latest",
+    "vitest": "latest"
+  }
+}

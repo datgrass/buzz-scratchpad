@@ -1,0 +1,6 @@
+{
+  "id": "datgrass.scratchpad-spike",
+  "name": "Scratchpad (spike)",
+  "apiVersion": 1,
+  "description": "Spike plugin for Scratchpad dock-page and relay/outbox proof."
+}
